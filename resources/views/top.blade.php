@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 70px;
             }
 
             .links > a {
@@ -61,6 +61,15 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            @media screen and (max-width: 480px) {
+                .content {
+                    width : 180px;
+                }
+                .title {
+                    font-size: 32px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -71,9 +80,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://github.com/yodamasa" target="_blank">GitHub</a>
-                    <a href="https://yodamasa.hatenablog.com/" target="_blank">Blog(日常)</a>
-                    <a href="/blog" target="_blank">Blog(技術)</a>
+                    <a href="https://twitter.com/yodamasa90" target="_blank">■Twitter</a>
+                    <a href="https://github.com/yodamasa" target="_blank">■GitHub</a>
+                    <a href="https://yodamasa.hatenablog.com/" target="_blank">■Blog(日常)</a>
+                    <a href="/blog" target="_blank">■Blog(技術)</a>
                 </div>
             </div>
         </div>
