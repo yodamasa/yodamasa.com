@@ -77,7 +77,7 @@
                     width : 180px;
                 }
                 .title {
-                    font-size: 32px;
+                    font-size: 28px;
                 }
             }
         </style>
